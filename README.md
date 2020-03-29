@@ -1,6 +1,6 @@
 # infra
 
-This project is created to keep organized , the information we gained during our researches on upgrading software production line as well as our infra structure.
+Upgrading software production line as well as infra structure.
 
 ## Table of Contents 
 

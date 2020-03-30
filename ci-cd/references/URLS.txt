@@ -2,5 +2,7 @@ https://jenkinsci.github.io/job-dsl-plugin/
 https://docs.gitlab.com/ee/user/project/protected_branches.html
 https://www.linkedin.com/pulse/automated-code-merge-automatic-review-using-jenkins-muhammad-hamed
 https://andrewtarry.com/jenkins_git_merges/
+https://docs.sonarqube.org/latest/user-guide/metric-definitions/
+
 
 

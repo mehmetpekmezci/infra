@@ -63,7 +63,7 @@ This section will have the following subsections :
    
 ```
 
-## <a href="ci-cd/" target="_blank">`infrastructure`</a>
+## <a href="infrastructure/" target="_blank">`infrastructure`</a>
 
 In this section mostly Docker based technologies and ısage scenarios will be studied.
 
@@ -91,7 +91,7 @@ This section will have the following subsections :
        Very low latency remote desktop program with 3D support will be searched.
 ``` 
 
-## <a href="ci-cd/" target="_blank">`runtime-optimization`</a>
+## <a href="runtime-optimization/" target="_blank">`runtime-optimization`</a>
 In this section runtime optimization of java applications will be studied.
 
 This section will have the following subsections :
@@ -102,7 +102,8 @@ This section will have the following subsections :
         2.1. Usage of DBUS within a node.
         2.2. Keeping a hot-stand-by service in the same machine.        
 
-## <a href="ci-cd/" target="_blank">`security`</a>
+``` 
+## <a href="security/" target="_blank">`security`</a>
 In this section two aspects of the security will be studied : security of the code itself and security of data.
  
  
@@ -118,7 +119,7 @@ This section will have the following subsections :
 
 ``` 
 
-## <a href="ci-cd/" target="_blank">`monitoring`</a>
+## <a href="monitoring/" target="_blank">`monitoring`</a>
 
 In this section monitoring of test environments are studied :
  

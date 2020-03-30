@@ -1,6 +1,6 @@
 # infra
+This is a coordination project to keep the information organized, while searching for a better software production line as well as infra structure.
 
-Upgrading software production line as well as infra structure.
 All the sub-titltes below will have the same common directory structure :
 - references/URLS.txt
 - docs
@@ -25,10 +25,9 @@ In this section Continuous Integration and Continuous Delivery/Deployment  scena
 
 This section will have the following subsections :
 
-```
-    usage-scenarios
-       - scenario-sheets (instead of cheat-sheet) 
-            - Centralized Workflow, trunk, test, master bracnhes, tags
+``` 
+    git-usage-scenarios
+    git-cheat-sheet for developers
     gitlab-configurations
        - Git repository'ler arası nasıl sync yapacağız?
        - SVN'den git repository'ye nasıl geçiş yapacağız,  
@@ -53,5 +52,3 @@ This section will have the following subsections :
            - rpm paketlerine yazdığımız "svn id" karşılığı olarak git'de commit count kullanılacak sanırım , bunu nasıl yapacağımızın bilgisi.
     nexus
 ```
-
-

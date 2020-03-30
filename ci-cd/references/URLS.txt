@@ -1,8 +1,5 @@
-https://jenkinsci.github.io/job-dsl-plugin/
-https://docs.gitlab.com/ee/user/project/protected_branches.html
-https://www.linkedin.com/pulse/automated-code-merge-automatic-review-using-jenkins-muhammad-hamed
-https://andrewtarry.com/jenkins_git_merges/
-https://docs.sonarqube.org/latest/user-guide/metric-definitions/
-
-
-
+* [gitlab-protected-branches](https://docs.gitlab.com/ee/user/project/protected_branches.html) - Gitlab protected branches
+* [jenkins-job-dsl-plugin](https://jenkinsci.github.io/job-dsl-plugin/) - Jenkins Job Dsl 
+* [jenkins-git-branch-merge](https://www.linkedin.com/pulse/automated-code-merge-automatic-review-using-jenkins-muhammad-hamed) - Jenkins Git Branch Merge
+* [jenkins-git-merges](https://andrewtarry.com/jenkins_git_merges/) - Jenkins Git Merges
+* [sonarqube-metrics](https://docs.sonarqube.org/latest/user-guide/metric-definitions/) - Sonar Qube Metrics

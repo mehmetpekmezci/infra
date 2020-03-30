@@ -1,1 +1,3 @@
 https://jenkinsci.github.io/job-dsl-plugin/
+https://docs.gitlab.com/ee/user/project/protected_branches.html
+

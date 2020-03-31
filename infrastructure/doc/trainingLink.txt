@@ -1,0 +1,12 @@
+/*
+  play-with-docker diye bir site var. Bu site üzerinden geçici bir session'da node oluşturup 
+  bu node'da istediğiniz gibi Docker çalıştırabiliyorsunuz. 
+  Docker ile ilgili konu anlatımlarını okuyup aynı zamanda 
+  play-with-docker ortamında pratik yapabilirsiniz.  :))
+*/
+
+https://training.play-with-docker.com/ 
+
+https://training.play-with-docker.com/dev-stage1/
+
+https://training.play-with-docker.com/beginner-linux/

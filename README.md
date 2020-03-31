@@ -47,12 +47,12 @@ This section will have the following subsections :
        4.2 Running Code Quality Tools, and breaking the job with failure
        4.3 Git 
            4.3.1 Automated Code merge from review to  dev_test  , dev_test to test , test to master branch 
-           4.3.2 Automated Tests Running (unit/integration/scenario)
-           4.3.3 Automated tagging after "test" build
+           4.3.2 Automated tagging after "test" build
        4.4 GraalVM plugin
        4.5 Nexus upload rpm
        4.6 Automated deploy to dev_test and tte platforms
-       4.7 Platform Distribution Management Jobs ( Custom Scripts , Rancher integration)
+       4.7 Automated Test Running after deploy(unit/integration/scenario)
+       4.8 Platform Distribution Management Jobs ( Custom Scripts , Rancher integration)
        
     5. SonarQube
        5.1  Determining quality metrics (Presentation + example config)

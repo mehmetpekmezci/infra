@@ -1,12 +1,20 @@
-/*
-  play-with-docker diye bir site var. Bu site üzerinden geçici bir session'da node oluşturup 
-  bu node'da istediğiniz gibi Docker çalıştırabiliyorsunuz. 
-  Docker ile ilgili konu anlatımlarını okuyup aynı zamanda 
-  play-with-docker ortamında pratik yapabilirsiniz.  :))
-*/
-
+# Play with Docker Classroom
 https://training.play-with-docker.com/ 
 
+## Docker for IT Pros and System Administrators Stage 1
+https://training.play-with-docker.com/ops-stage1/
+
+## Docker for Developers Stage 1
 https://training.play-with-docker.com/dev-stage1/
 
-https://training.play-with-docker.com/beginner-linux/
+## Kubernetes for Beginners
+https://training.play-with-kubernetes.com/kubernetes-workshop/
+
+## Application Containerization and Microservice Orchestration
+https://training.play-with-docker.com/microservice-orchestration/
+
+# Docker for beginners
+https://docker-curriculum.com/
+
+# Katacode - Learn Docker & Containers
+https://www.katacoda.com/courses/docker

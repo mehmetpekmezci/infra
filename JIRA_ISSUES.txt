@@ -1,0 +1,71 @@
+
+INFRA - CI-CD - WORKFLOW - 1. Workflow (Documentation)
+INFRA - CI-CD - WORKFLOW - 1.1.Branching and Merging Strategies
+INFRA - CI-CD - WORKFLOW - 1.2.Semantic Versioning
+       
+INFRA - CI-CD - GITLAB - Branch, creation, protection, approval (merge-req) configuration.
+INFRA - CI-CD - GITLAB - REPOSITORY MIRRORING
+INFRA - CI-CD - GITLAB - SVN TO GIT repository howto
+INFRA - CI-CD - GITLAB - SVN TO GIT Configuration Tree : segment/csci/csc/csu  tree structure will be inplemented using user groups and nested subgroups
+
+INFRA - CI-CD - GIT - COMMAND LINE CHEAT SHEET
+
+
+INFRA - CI-CD - JENKINS - JOB DSL and SEED JOBS
+INFRA - CI-CD - JENKINS - NEXUS CHECK RPM SCRIPT : (Skip build if an rpm with same git id , sdk id and proje/platform exist in the nexus repo to speedup compilations)
+INFRA - CI-CD - JENKINS - CODE QUALITY TOOLS configuration (including sonarqube )
+INFRA - CI-CD - JENKINS - GIT - AUTOMATIC CODE MERGE (trunk >devtest, devtest >test, test > master)
+INFRA - CI-CD - JENKINS - GIT - AUTOMATIC TAGGING AFTER SUCCESSFUL "test" build
+INFRA - CI-CD - JENKINS - NEXUS - RPM UPLOAD
+INFRA - CI-CD - JENKINS - AUTOMATIC DEPLOYMENT TO DEV_TEST and Small Test environments
+INFRA - CI-CD - JENKINS - AUTOMATIC TEST RUNNING
+INFRA - CI-CD - JENKINS - Platform Distribution Management Jobs ( Custom Scripts , Rancher integration)
+
+INFRA - CI-CD - SONAR QUBE -  Determining quality metrics (Presentation + example config)
+INFRA - CI-CD - SONAR QUBE -  Tuning metrics according to company needs. (Presentation + example config)
+
+INFRA - CI-CD - NEXUS -  Configuring rpm repositories ( Presentation and example config file)
+INFRA - CI-CD - NEXUS -  Howto write plugins for nexus (example plugin)
+
+INFRA - CI-CD - GRADLE - Example Gradle Scripts + Presentation
+INFRA - CI-CD - GRADLE - GraalVM plugin
+
+INFRA - INFRASTRUCTURE - DOCKER - Howto install and execute an image on Centos 8
+INFRA - INFRASTRUCTURE - DOCKER - How to build and deploy applications as a docker container
+INFRA - INFRASTRUCTURE - DOCKER - kubernetes ( Centos 8  installation and usage scenario ) 
+INFRA - INFRASTRUCTURE - DOCKER - Kubernetes-Nexus integration
+INFRA - INFRASTRUCTURE - DOCKER - Nvidia-Docker-Image for 3D console virtualization.
+INFRA - INFRASTRUCTURE - DOCKER - Rancher
+INFRA - INFRASTRUCTURE - DOCKER - Kafka over kubernetes (HA, Logs)
+
+INFRA - INFRASTRUCTURE - Management of Real Test Env - Automated Startup/Shutdown scripts and network architecture for single contrroler pc.
+INFRA - INFRASTRUCTURE - Management of Real Test Env - Dashboard - Showing which software group is being tested / completed test percentage / on each test environment .
+INFRA - INFRASTRUCTURE - Management of Real Test Env - Dashboard - Showing Test Calendar for all projects.  
+INFRA - INFRASTRUCTURE - Management of Real Test Env - Automatic / Semi-Automatic rpm update mechanism and scripts ( TTE/LBTS)
+
+INFRA - INFRASTRUCTURE - Dev Test Environments - installation and test scripts/documents for a test environment used by jenkins  
+
+INFRA - INFRASTRUCTURE - 3D Console Remote Desktop -  Very low latency remote desktop program with 3D support will be searched.
+    
+
+INFRA - RUNTIME-OPTIMIZATION - GraalVM, Quarkus -  Jar to Binary
+INFRA - RUNTIME-OPTIMIZATION - GraalVM, Quarkus -  Jar to so
+INFRA - RUNTIME-OPTIMIZATION - GraalVM, Quarkus -  OSGI
+       
+INFRA - RUNTIME-OPTIMIZATION - Conveting a library to a service (Usage of DBUS and hot*stad-by backup services)
+
+INFRA - SECURITY - Security of the Java codes - Enforcing signed application execution-only by modifying OpenJDK
+INFRA - SECURITY - Security of the Java codes -  Encrypting java byte code classes (Also loading with custom class loader).
+INFRA - SECURITY - Security of the Java codes -  USB based hardware to make decryption.
+
+INFRA - SECURITY - DATA -  Detemining the architecture (like Hashicorp Vault )  to secure the data.
+
+ 
+INFRA - LOGGING - Deciding which logs to collect at which frequency.
+INFRA - LOGGING - Sending Logs (Rsyslog, log4j configs to use rsyslog, fluentd, other alternatives)
+INFRA - LOGGING -  Accumulating Logs (in to a central machine) ( Logstash )
+INFRA - LOGGING -  Parsing/Indexing Logs ( Elastic Search)
+INFRA - LOGGING -  Storing Logs
+INFRA - LOGGING -   Anlysing Logs using Machine Learning algorithms / Predictive Maintenance
+INFRA - LOGGING -  Visualization of  raw-data / extracted-data / meaning / result. (.)
+

@@ -120,6 +120,7 @@ This section will have the following subsections :
        1.3. USB based hardware to make decryption.
     2. Security of data 
        2.1. Detemining the architecture (like Hashicorp Vault )  to secure the data.
+    3. Binary to C code conversion
 
 ``` 
 

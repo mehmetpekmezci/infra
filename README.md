@@ -139,6 +139,7 @@ This section will have the following subsections :
        1.3. Parsing/Indexing Logs ( Elastic Search)
        1.4. Storing Logs 
        1.5. Anlysing Logs using Machine Learning algorithms / Predictive Maintenance
+       1.5. Generating Alerts using Machine Learning algorithms
        1.6. Visualization of  raw-data / extracted-data / meaning / result. (.)
 ``` 
 

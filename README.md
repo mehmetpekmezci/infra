@@ -30,6 +30,9 @@ This section will have the following subsections :
 
 ``` 
     1. CI/CD Workflow (Documentation)
+       1.1. Branching and Merging Strategies
+       1.2. Semantic Versioning
+       
     2. GitLab Configurations (Documentation, scripts and configuration files)
        2.1. Branches , protection and approval
        2.2. gitlab repository mirroring
@@ -49,7 +52,7 @@ This section will have the following subsections :
        4.4 GraalVM plugin
        4.5 Nexus upload rpm
        4.6 Automated deploy to dev_test and tte platforms
-       4.7 Platform Distribution Management Jobs
+       4.7 Platform Distribution Management Jobs ( Custom Scripts , Rancher integration)
        
     5. SonarQube
        5.1  Determining quality metrics (Presentation + example config)
@@ -63,7 +66,7 @@ This section will have the following subsections :
    
 ```
 
-## <a href="infrastructure/" target="_blank">`infrastructure`</a>
+## <a href="ci-cd/" target="_blank">`infrastructure`</a>
 
 In this section mostly Docker based technologies and ısage scenarios will be studied.
 
@@ -76,6 +79,8 @@ This section will have the following subsections :
        1.3. Kubernetes-Nexus integration
        1.4. Nvidia-Docker-Image for 3D console virtualization.
        1.5. Usage of docker to downgrade the platform immediately after a failed installation.
+       1.6. Rancher
+       1.7. Kafka over kubernetes (HA, Logs)
        
     2. Organization and Management of Real Test Environments
        2.1. Automated Startup/Shutdown scripts and network architecture for single contrroler pc.
@@ -91,7 +96,7 @@ This section will have the following subsections :
        Very low latency remote desktop program with 3D support will be searched.
 ``` 
 
-## <a href="runtime-optimization/" target="_blank">`runtime-optimization`</a>
+## <a href="ci-cd/" target="_blank">`runtime-optimization`</a>
 In this section runtime optimization of java applications will be studied.
 
 This section will have the following subsections :
@@ -101,9 +106,8 @@ This section will have the following subsections :
     2. How to turn a library into a service, in order to save Memory (also maybe faster processing time)
         2.1. Usage of DBUS within a node.
         2.2. Keeping a hot-stand-by service in the same machine.        
-
 ``` 
-## <a href="security/" target="_blank">`security`</a>
+## <a href="ci-cd/" target="_blank">`security`</a>
 In this section two aspects of the security will be studied : security of the code itself and security of data.
  
  
@@ -119,7 +123,7 @@ This section will have the following subsections :
 
 ``` 
 
-## <a href="monitoring/" target="_blank">`monitoring`</a>
+## <a href="ci-cd/" target="_blank">`monitoring`</a>
 
 In this section monitoring of test environments are studied :
  
@@ -127,14 +131,14 @@ In this section monitoring of test environments are studied :
 This section will have the following subsections :
 
 ``` 
-    1. Logging infrastrcture
+    1. Logging infrastrcture ( Grafana, prometheus, kibana, elasticsearch, rsyslog, fluentd)
        1.0. Deciding which logs to collect at which frequency.
-       1.1. Sending Logs (Rsyslog, log4j configs to use rsyslog, other alternatives)
+       1.1. Sending Logs (Rsyslog, log4j configs to use rsyslog, fluentd, other alternatives)
        1.2. Accumulating Logs (in to a central machine) ( Logstash )
-       1.3. Parsing Logs ( Elastic Search)
+       1.3. Parsing/Indexing Logs ( Elastic Search)
        1.4. Storing Logs 
        1.5. Anlysing Logs using Machine Learning algorithms / Predictive Maintenance
-       1.6. Visualization of  raw-data / extracted-data / meaning / result. (Grafana ....)
+       1.6. Visualization of  raw-data / extracted-data / meaning / result. (.)
 ``` 
 
 

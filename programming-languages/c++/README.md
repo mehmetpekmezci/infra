@@ -1,4 +1,4 @@
-# C++20/17/14/11
+# C++ 20/17/14/11
 
 ## Overview
 Many of these descriptions and examples come from various resources (see [Acknowledgements](#acknowledgements) section), summarized in my own words.

@@ -12,6 +12,7 @@ This is a coordination project to keep the information organized, while searchin
 - [optimization](#optimization)
 - [security](#security)
 - [monitoring](#monitoring)
+- [programming-languages](#programming-languages)
 
 ## Directory structure
 
@@ -143,5 +144,16 @@ This section will have the following subsections :
        1.6. Visualization of  raw-data / extracted-data / meaning / result. (.)
 ``` 
 
+## <a href="ci-cd/" target="_blank">`programming-languages`</a>
 
+In this section programming languages are studied :
+ 
+ 
+This section will have the following subsections :
+
+``` 
+    1. c++ 
+       1.0. c++ features 20/17/14/11 .
+       
+``` 
 

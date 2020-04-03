@@ -105,18 +105,23 @@ dist
 .tern-port
 
 # Stores VSCode versions used for testing VSCode extensions
+.vs/
 .vscode-test
 .vscode/settings.json
 
 # yarn v2
-
 .yarn/cache
 .yarn/unplugged
 .yarn/build-state.yml
 .pnp.*
 
-  
 # macOS
 .DS_Store
 .AppleDouble
 .LSOverride
+
+# other
+.pyc
+project.lock.json
+bin/
+obj/

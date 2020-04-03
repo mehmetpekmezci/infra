@@ -106,8 +106,12 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vs/
-.vscode-test
-.vscode/settings.json
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
 
 # yarn v2
 .yarn/cache

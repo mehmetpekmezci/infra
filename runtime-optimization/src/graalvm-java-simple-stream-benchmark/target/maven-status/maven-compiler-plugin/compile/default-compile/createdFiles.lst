@@ -1,0 +1,8 @@
+META-INF/CompilerHints
+META-INF/BenchmarkList
+org/graalvm/demos/generated/JavaSimpleStreamBenchmark_jmhType_B3.class
+org/graalvm/demos/generated/JavaSimpleStreamBenchmark_jmhType_B1.class
+org/graalvm/demos/generated/JavaSimpleStreamBenchmark_jmhType.class
+org/graalvm/demos/generated/JavaSimpleStreamBenchmark_testMethod_jmhTest.class
+org/graalvm/demos/generated/JavaSimpleStreamBenchmark_jmhType_B2.class
+org/graalvm/demos/JavaSimpleStreamBenchmark.class

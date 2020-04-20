@@ -178,7 +178,7 @@ CREATE TABLE IF NOT EXISTS `scm_db`.`platform_status` (
   `ptimestamp` TIMESTAMP(20) NOT NULL,
   `changelog` LONGTEXT NOT NULL,
   `stage` ENUM('FAT') NULL,
-  `pkgset_status` ENUM('DEFINED', 'BUILT', 'UPDATED', 'UPDATE_BUILT', 'TESTED') NULL,
+  `pkgset_status` ENUM('DEFINED', 'BUILT', 'UPDATED', 'UPDATE_BUILT', 'DEPLOYED','TESTED') NULL,
   `test_env_name` VARCHAR(256) NULL,
   INDEX `project_platform_changelog_ibfk_1_idx` (`platform_id` ASC),
   PRIMARY KEY (`platform_status_id`),

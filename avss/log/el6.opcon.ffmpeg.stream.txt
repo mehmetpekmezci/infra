@@ -1,0 +1,544 @@
+    1  nvidia-settings 
+    2  poweroff
+    3  nvidia-settings 
+    4  ssh 10.1.10.13
+    5  ssh root@10.1.10.13
+    6  ssh root@10.1.10.11
+    7  ll
+    8  history 
+    9  cd
+   10  clear
+   11  ll
+   12  cd /usr/local/
+   13  ll
+   14  cd bin/
+   15  ll
+   16  cd
+   17  su -
+   18  ssh 10.1.10.11
+   19  ssh 10.1.10.13
+   20  poweroff
+   21  ffplay -codec hevc_cuvid -an udp://225.1.10.100:6001
+   22  ffplay -vcodec hevc_cuvid -an udp://225.1.10.100:6001
+   23  ssh root@10.1.10.13
+   24  ifconfig 
+   25  su -
+   26  ffplay -vcodec hevc_cuvid -an udp://225.1.10.100:6001
+   27  ffplay -an udp://225.1.10.100:6001
+   28  top
+   29  poweroff
+   30  top
+   31  su -
+   32  ffplay -an udp://225.1.10.100:6001
+   33  ffplay -an -vcodec hevc_cuvid udp://225.1.10.100:6001
+   34  ffplay -an udp://225.1.10.100:6001
+   35  poweroff
+   36  su -
+   37  ffplay -an udp://225.1.10.100:6001
+   38  ffplay -an udp://225.1.10.100:6001 -v 
+   39  ffplay -an udp://225.1.10.100:6001
+   40  su -
+   41  top
+   42  nvidia-settings 
+   43  cd
+   44  top
+   45  su -
+   46  nvidia-settings 
+   47  top
+   48  vlc
+   49  clear
+   50  ffmpeg -h 
+   51  ffmpeg -devıces
+   52  ffmpeg -devices
+   53  ffmpeg -h device=x11grab
+   54  ffmpeg -h devices=x11grab
+   55  ffmpeg -devices
+   56  ffmpeg -encoders
+   57  ffmpeg -h encoder=hevc_nevnc
+   58  ffmpeg -h encoder=hevc_nvenc
+   59  ffmpeg -h device=x11grab
+   60  man ffmpeg
+   61  ffmpeg -f x11grab -framerate 30 -size uhd2160 -i :0.0
+   62  man ffmpeg
+   63  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -b:v 5M 
+   64  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -f null -
+   65  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -v:codec hevc_nvenv -preset fast -b:v 3M -f null -
+   66  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenv -preset fast -b:v 3M -f null -
+   67  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -b:v 3M -f null -
+   68  ffmpeg -h
+   69  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -b:v 3M -an -f null -
+   70  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -b:v 3M -an -f mpegts udp://225.1.10.100:6001
+   71  su -
+   72  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -b:v 3M -an -f mpegts udp://225.1.10.100:6001
+   73  ffmpeg -f x11grab -framerate 50 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -b:v 3M -an -f mpegts udp://225.1.10.100:6001
+   74  exit
+   75  ffmpeg -f x11grab -framerate 50 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -b:v 3M -an -f mpegts udp://225.1.10.100:6001
+   76  su -
+   77  ffmpeg -f x11grab -framerate 50 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -b:v 3M -an -f mpegts udp://225.1.10.100:6001
+   78  ffmpeg -f x11grab -framerate 50 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 3M -an -f mpegts udp://225.1.10.100:6001
+   79  ffmpeg -f x11grab -framerate 50 -video_size uhd2160 -i :0.0 -c:video h264_nvenc -preset fast -pix_fmt bgr0 -b:v 3M -an -f mpegts udp://225.1.10.100:6001
+   80  ffmpeg -f x11grab -framerate 50 -video_size uhd2160 -i :0.0 -f mpegts udp://225.1.10.100:6001
+   81  ffmpeg -f x11grab -framerate 50 -video_size uhd2160 -i :0.0 -c:video h264_nvenc -preset fast -pix_fmt bgr0 -b:v 3M -an -f mpegts udp://225.1.10.100:6001
+   82  ffmpeg -h codec=h264_nvenc
+   83  ffmpeg -h encoder=h264_nvenc
+   84  cd
+   85  ffmpeg -f x11grab -framerate 50 -video_size uhd2160 -i :0.0 -c:video h264_nvenc -preset fast -pix_fmt bgr0 -b:v 3M -an -f mpegts udp://225.1.10.100:6001
+   86  top
+   87  nvidia-smi 
+   88  nvidia-smi --help
+   89  nvidia-smi dmon
+   90  nvidia-settings 
+   91  cd
+   92  su -
+   93  ffplay -vcodec hevc_cuvid Video/The.Grand.Tour.S01E01.The.Holy.Trinity.1080p.WEBRip.6CH.x265.HEVC-PSA.mkv 
+   94  exit
+   95  top
+   96  nvidia-settings 
+   97  ffmpeg -f x11grab -framerate 50 -video_size uhd2160 -i :0.0 -c:video h264_nvenc -preset fast -pix_fmt bgr0 -b:v 3M -an -f mpegts udp://225.1.10.100:6001
+   98  ffmpeg -f x11grab -framerate 50 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 3M -an -f mpegts udp://225.1.10.100:6001
+   99  ffmpeg -f x11grab -framerate 50 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt yuv420p -b:v 3M -an -f mpegts udp://225.1.10.100:6001
+  100  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 3M -an -f mpegts udp://225.1.10.100:6001
+  101  exit
+  102  cd
+  103  ll
+  104  cd
+  105  ll
+  106  rpm -qa | grep xorg
+  107  vi /var/log/Xorg.0.log
+  108  su -
+  109  cd
+  110  vı Downloads/oscolor.c 
+  111  vim Downloads/oscolor.c 
+  112  su -
+  113  ps ax
+  114  exit
+  115  cd
+  116  more Downloads/5981-rgb.txt 
+  117  xterm -bg OK_Color&
+  118  top
+  119  ps ax
+  120  gnome-terminal 
+  121  more Downloads/5981-rgb.txt 
+  122  gnome-terminal -bg OK_Color
+  123  su -
+  124  xterm -bg OK_Color&
+  125  su -
+  126  exit
+  127  xterm -bg gray
+  128  su -
+  129  history 
+  130  ffplay -an udp://225.1.10.100:6001
+  131  history 
+  132  ffplay -an -vcodec hevc_cuvid udp://225.1.10.100:6001
+  133  ffplay -an udp://225.1.10.100:6001
+  134  ffplay -an -vcodec hevc_cuvid udp://225.1.10.100:6001
+  135  ffplay -an -vcodec h264_cuvid udp://225.1.10.100:6001
+  136  poweroff
+  137  top
+  138  maintain
+  139  cd Video
+  140  ll
+  141  cd 
+  142  ll
+  143  scp -r Video 10.1.10.20:~/
+  144  ll
+  145  cd Downloads/
+  146  ll
+  147  cd
+  148  ll
+  149  exit
+  150  history 
+  151  su -
+  152  clear
+  153  cd 
+  154  su -
+  155  poweroff
+  156  top
+  157  nvidia-settings 
+  158  history 
+  159  cd
+  160  ffplay -an -vcodec hevc_cuvid Video/The.Grand.Tour.S01E01.The.Holy.Trinity.1080p.WEBRip.6CH.x265.HEVC-PSA.mkv 
+  161  ffplay -vcodec hevc_cuvid Video/The.Grand.Tour.S01E01.The.Holy.Trinity.1080p.WEBRip.6CH.x265.HEVC-PSA.mkv 
+  162  cd
+  163  ll
+  164  su -
+  165  cd
+  166  history | more
+  167  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 3M -an -f mpegts udp://225.1.10.100:6001
+  168  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video h264_nvenc -preset fast -pix_fmt bgr0 -b:v 3M -an -f mpegts udp://225.1.10.100:6001
+  169  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video h264_nvenc -preset ll -pix_fmt bgr0 -b:v 5M -rc cbr -f mpegts udp://225.1.10.100:6001
+  170  clear
+  171  ll
+  172  exit
+  173  ll
+  174  history 
+  175  exit
+  176  cd
+  177  history 
+  178  vlc &
+  179  ifconfig 
+  180  poweroff
+  181  vi /var/log/Xorg.0.log
+  182  cd
+  183  ll
+  184  su -
+  185  cd
+  186  su -
+  187  cd
+  188  ifconfig 
+  189  poweroff
+  190  history 
+  191  ffplay -vcodec hevc_cuvid Video/The.Grand.Tour.S01E01.The.Holy.Trinity.1080p.WEBRip.6CH.x265.HEVC-PSA.mkv 
+  192  cd ..
+  193  ffplay -vcodec hevc_cuvid Video/The.Grand.Tour.S01E01.The.Holy.Trinity.1080p.WEBRip.6CH.x265.HEVC-PSA.mkv 
+  194  ffplay -h
+  195  ffplay -vcodec hevc_cuvid Video/The.Grand.Tour.S01E01.The.Holy.Trinity.1080p.WEBRip.6CH.x265.HEVC-PSA.mkv 
+  196  clear
+  197  ll
+  198  poweroff
+  199  top
+  200  poweroff
+  201  nvidia-settings 
+  202  ffplay ../Video/The.Grand.Tour.S01E01.The.Holy.Trinity.1080p.WEBRip.6CH.x265.HEVC-PSA.mkv 
+  203  history 
+  204  cd ..
+  205  ffplay -vcodec hevc_cuvid /media/USB\ DISK/Video/Avengers.Infinity.War.2018.2160p.10bit.HDR.BluRay.8CH.x265.HEVC-PSA.mkv 
+  206  nvidia-settings 
+  207  ffplay Videos/12.monkeys.s02e01.year.of.the.monkey.1080p.webrip.hevc.x265.rmteam.mkv 
+  208  cd
+  209  ll
+  210  dc Video
+  211  cd Video
+  212  ll
+  213  rm -rf *
+  214  ll
+  215  cd çç
+  216  cd ..
+  217  rm -rf Video
+  218  ll
+  219  history 
+  220  ffplay -vcodec hevc_cuvid Videos/Avengers.Infinity.War.2018.2160p.10bit.HDR.BluRay.8CH.x265.HEVC-PSA.mkv 
+  221  ffplay -vvvv -vcodec hevc_cuvid Videos/Avengers.Infinity.War.2018.2160p.10bit.HDR.BluRay.8CH.x265.HEVC-PSA.mkv 
+  222  ffplay -vvv -vcodec hevc_cuvid Videos/Avengers.Infinity.War.2018.2160p.10bit.HDR.BluRay.8CH.x265.HEVC-PSA.mkv 
+  223  ffplay -v -vcodec hevc_cuvid Videos/Avengers.Infinity.War.2018.2160p.10bit.HDR.BluRay.8CH.x265.HEVC-PSA.mkv 
+  224  ffplay -v info -vcodec hevc_cuvid Videos/Avengers.Infinity.War.2018.2160p.10bit.HDR.BluRay.8CH.x265.HEVC-PSA.mkv 
+  225  ffplay -v debug -vcodec hevc_cuvid Videos/Avengers.Infinity.War.2018.2160p.10bit.HDR.BluRay.8CH.x265.HEVC-PSA.mkv 
+  226  rpm -qa | grep vdpau
+  227  ffplay -v debug -vcodec hevc_cuvid Videos/The.Grand.Tour.S01E01.The.Holy.Trinity.1080p.WEBRip.6CH.x265.HEVC-PSA.mkv 
+  228  su -
+  229  history 
+  230  su -
+  231  history 
+  232  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 3M -an -f mpegts udp://225.1.10.100:6001
+  233  ifconfig 
+  234  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 3M -an -f mpegts udp://225.1.10.100:6001
+  235  ping 10.1.10.21
+  236  ping 10.1.10.20
+  237  ifconfig 
+  238  ping 10.1.10.20
+  239  ping 10.1.10.21
+  240  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 3M -an -f mpegts udp://225.1.10.100:6001
+  241  netstat -nr
+  242  su -
+  243  netstat -nr
+  244  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 3M -an -f mpegts udp://225.1.10.100:6001
+  245  ifconfig 
+  246  netstat -nr
+  247  su -
+  248  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 3M -an -f mpegts udp://225.1.10.100:6001
+  249  sysctl --all | grep ttl
+  250  sysctl -a | grep ttl
+  251  sysctl -a | grep mtu
+  252  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 3M -an -f mpegts udp://225.1.10.100:6001
+  253  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 8M -an -f mpegts udp://225.1.10.100:6001
+  254  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 8M -an -f mpegts rtp://225.1.10.100:6001
+  255  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 8M -an -f mpegts udp://225.1.10.100:6001
+  256  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 8M -an -f rtp_mpegts rtp://225.1.10.100:6001
+  257  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 8M -an -f rtp_mpegts rtp://225.1.10.100:6000
+  258  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset ll -pix_fmt bgr0 -b:v 8M -an -f rtp_mpegts rtp://225.1.10.100:6000
+  259  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset ll -pix_fmt bgr0 -b:v 3M -an -f rtp_mpegts rtp://225.1.10.100:6000
+  260  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 3M -an -f rtp_mpegts rtp://225.1.10.100:6000
+  261  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 8M -an -f rtp_mpegts rtp://225.1.10.100:6000
+  262  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 8M -f rtp_mpegts rtp://225.1.10.100:6000
+  263  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 8M -an -f rtp_mpegts rtp://225.1.10.100:6000
+  264  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 3M -an -f rtp_mpegts rtp://225.1.10.100:6000
+  265  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 3M -an -f mpegts udp://225.1.10.100:6001
+  266  poweroff
+  267  top
+  268  cd
+  269  ffplay  Videos/The.Grand.Tour.S01E01.The.Holy.Trinity.1080p.WEBRip.6CH.x265.HEVC-PSA.mkv 
+  270  date
+  271  ffplay  Videos/The.Grand.Tour.S01E01.The.Holy.Trinity.1080p.WEBRip.6CH.x265.HEVC-PSA.mkv 
+  272  ffplay Videos/Salvation.S02E06.Let.the.Chips.Fall.1080p.WEBRip.6CH.x265.HEVC-PSA.mkv 
+  273  ffplay Videos/the.expanse.s02e11.720p.hdtv.hevc.x265.rmteam.mkv 
+  274  ffplay Videos/sully.2016.1080p.bluray.dd5.1.hevc.x265.rmteam.mkv 
+  275  ffplay Videos/halt.and.catch.fire.s03e10.next.1080p.web.dl.6ch.hevc.x265.rmteam.mkv 
+  276  unam *a
+  277  uname -a 
+  278  ffmpeg
+  279  ffplay
+  280  su -
+  281  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 3M -an -f rtp_mpegts udp://225.1.10.100:6000
+  282  poweroff
+  283  top
+  284  ll
+  285  cd
+  286  ffplay Videos/halt.and.catch.fire.s03e10.next.1080p.web.dl.6ch.hevc.x265.rmteam.mkv 
+  287  uname *a
+  288  uname -a
+  289  su -
+  290  ffplay -formats rawvideo -bfsf uyvy422 -x 720 -y 576 -an rtp://225.0.4.106:4378
+  291  ffplay rawvideo uyvy422 -x 720 -y 576 -an rtp://225.0.4.106:4378
+  292  ffplay uyvy422 -x 720 -y 576 -an rtp://225.0.4.106:4378
+  293  ffplay  -x 720 -y 576 -an rtp://225.0.4.106:4378
+  294  ffplay -f rawvideo -pix_fmt uyvy422 -x 720 -y 576 -an rtp://225.0.4.106:4378
+  295  ffplay -f rawvideo -pixel_format uyvy422 -x 720 -y 576 -an rtp://225.0.4.106:4378
+  296  ffplay -f rawvideo -pixel_format uyvy422 -an rtp://225.0.4.106:4378
+  297  ffplay -f rawvideo -pixel_format uyvy422 -s 720x576 -an rtp://225.0.4.106:4378
+  298  ffplay -f rawvideo -pixel_format uyvy422 -s 720x576 -an rtp://225.0.4.107:4378
+  299  ffplay -f rawvideo -pixel_format uyyuv422 -s 720x576 -an rtp://225.0.4.107:4378
+  300  ffplay -f rawvideo -pixel_format yuv422 -s 720x576 -an rtp://225.0.4.107:4378
+  301  ffplay -f rawvideo -pixel_format yuv422p -s 720x576 -an rtp://225.0.4.107:4378
+  302  ffplay -f rawvideo -pixel_format yuuyvy422  -s 720x576 -an rtp://225.0.4.107:4378
+  303  ffplay -f rawvideo -pixel_format uyvy422  -s 720x576 -an rtp://225.0.4.107:4378
+  304  ffplay -f rawvideo -pixel_format uyvy422  -s 720x57576 -an rtp://225.0.4.107:4378
+  305  ffplay -f rawvideo -pixel_format uyvy422  -s 720x576 -an rtp://225.0.4.107:4378
+  306  ffplay -f rawvideo -pixel_format uyvy422  -s 720x576 -an -vf yadif rtp://225.0.4.107:4378
+  307  ffplay -f rawvideo -pixel_format uyvy422  --r 50 s 720x576 -an -vf yadif rtp://225.0.4.107:4378
+  308  ffplay -f rawvideo -pixel_format uyvy422  -r 50 s 720x576 -an -vf yadif rtp://225.0.4.107:4378
+  309  ffplay -f rawvideo -pixel_format uyvy422  -r 25 s 720x576 -an -vf yadif rtp://225.0.4.107:4378
+  310  ffplay -f rawvideo top 1 -pixel_format uyvy422  -r 25 s 720x576 -an -vf yadif rtp://225.0.4.107:4378
+  311  ffplay -f rawvideo top 0 -pixel_format uyvy422  -r 25 s 720x576 -an -vf yadif rtp://225.0.4.107:4378
+  312  ffplay -f rawvideo -pixel_format uyvy422  -r 25 s 720x576 -an -vf yadif rtp://225.0.4.107:4378
+  313  ffplay -f rawvideo -pixel_format uyvy422 -s 720x576 -an -vf yadif rtp://225.0.4.107:4378
+  314  ffplay -f rawvideo -pixel_format uyvy422 -s 720x576 -an - rtp://225.0.4.107:4378
+  315  ffplay -f rawvideo -pixel_format uyvy422 -s 720x576 -an -rtp://225.0.4.107:4378
+  316  ffplay -f rawvideo -pixel_format uyvy422 -s 720x576 -an rtp://225.0.4.107:4378
+  317  ffplay rtp://@225.0.4.106:4378
+  318  ffplay udp://@225.0.4.106:4378
+  319  ffplay rtp://@225.0.4.106:4378
+  320  ffplay rtp://225.0.4.106:4378
+  321  ffplay rtp://@225.0.4.106:4378
+  322  ffplay rtp://225.0.4.106:4378
+  323  ffplay -formats
+  324  ffplay -formats | grep raw
+  325  ffplay -bsfs
+  326  ffplay -pix_fmts
+  327  ffplay -codecs
+  328  ffplay -formats 
+  329  ffplay -formats | grep raw
+  330  ffplay -sources
+  331  ffplay -r
+  332  ffplay -f rawvideo -pixel_format uyvy422 -s 720x576 -an -vf yadif rtp://225.0.4.106:4378
+  333  gst-launch videotestsrc ! xvimagesink
+  334  vi
+  335  nvidia-settings 
+  336  history 
+  337  netstat -nr
+  338  su -
+  339  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 3M -an -f rtp_mpegts udp://225.1.10.100:6000
+  340  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 8M -an -f rtp_mpegts udp://225.1.10.100:6000
+  341  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 3M -an -f rtp_mpegts udp://225.1.10.100:6000
+  342  history 
+  343  ffplay  Videos/The.Grand.Tour.S01E01.The.Holy.Trinity.1080p.WEBRip.6CH.x265.HEVC-PSA.mkv 
+  344  cd ..
+  345  ffplay  Videos/The.Grand.Tour.S01E01.The.Holy.Trinity.1080p.WEBRip.6CH.x265.HEVC-PSA.mkv 
+  346  history 
+  347  ffplay Videos/Salvation.S02E06.Let.the.Chips.Fall.1080p.WEBRip.6CH.x265.HEVC-PSA.mkv 
+  348  history 
+  349  ffplay Videos/halt.and.catch.fire.s03e10.next.1080p.web.dl.6ch.hevc.x265.rmteam.mkv 
+  350  uname -a
+  351  ffmpeg --help
+  352  ffmpeg --rawvideo
+  353  ffmpeg  -rawvideo
+  354  ffmpeg  --help  -rawvideo
+  355  ffmpeg  --help rawvideo
+  356  top
+  357  ıfconfıg -a
+  358  ifconfig -a
+  359  ping 10.0.4.106
+  360  ffmpeg -demuxers
+  361  ffplay -f rawvideo -pixel_format yuv422p -video_size 720x576 -framerate 25 udp://225.0.4.106  
+  362  ffplay -f rawvideo -pixel_format yuv422p -video_size 720x576 -framerate 25 -re -i udp://@225.0.4.106  
+  363  ffplay -f rawvideo -pixel_format yuv422p -video_size 720x576 -framerate 25 -i udp://@225.0.4.106  
+  364  ffplay -f rawvideo -pixel_format yuv422p -video_size 720x576 -framerate 25 -i udp://@225.0.4.106:4378  
+  365  ffplay -f rawvideo -pixel_format yuv422p0-video_size 720x576 -framerate 25 -i udp://@225.0.4.106:4378  
+  366  ffplay -f rawvideo -pixel_format yuv420p -video_size 720x576 -framerate 25 -i udp://@225.0.4.106:4378  
+  367  ffplay -f rawvideo -pixel_format yuv420p -video_size 720x576 -framerate 50 -i udp://@225.0.4.106:4378  
+  368  ffplay -f rawvideo -pixel_format yuv420p2p -video_size 720x576 -framerate 25 -i udp://@225.0.4.106:4378  
+  369  ffplay -f rawvideo -pixel_format yuv422p -video_size 720x576 -framerate 25 -i udp://@225.0.4.106:4378  
+  370  ffplay - -s 720x576 -f rawvideo -pixel_format yuv422p -video_size 720x576 -framerate 25 -i udp://@225.0.4.106:4378  
+  371  ffplay -f rawvideo -pixel_format yuv422p -video_size 720x576 -framerate 25 -i udp://@225.0.4.106:4378  
+  372  ffplay -f rawvideo -pixel_format yuuyvy422 video_size 720x576 -framerate 25 -fs -i udp://@225.0.4.106:4378  
+  373  ffplay -f rawvideo -pixel_format uyvy422 video_size 720x576 -framerate 25 -fs -i udp://@225.0.4.106:4378  
+  374  ffplay -f rawvideo -pixel_format yuv422p video_size 720x576 -framerate 25 -fs -i udp://@225.0.4.106:4378  
+  375  ffplay -f rawvideo -pixel_format uyvy422 -video_size 720x576 -framerate 25 -fs -i udp://@225.0.4.106:4378  
+  376  ffplay -f rawvideo -pixel_format uyvy422 -video_size 720x576 -framerate 25 -fs -i rtp://@225.0.4.106:4378  
+  377  ffplay -f rawvideo -pixel_format uyvy422 -video_size 720x576 -framerate 25 -i rtp://@225.0.4.106:4378  
+  378  ffplay -f rawvideo -pixel_format uyvy422 -video_size 720x576 -framerate 25 -i udp://@225.0.4.106:4378  
+  379  ffplay -f rawvideo -pixel_format uyvy422 -video_size 720x576 -framerate 25 -i udp://@225.0.4.106:4378 payload_size=96
+  380  ffplay -f rawvideo -pixel_format uyvy422 -video_size 720x576 -framerate 25 -i udp://@225.0.4.106:4378 payload_size= 6
+  381  ffplay -f rawvideo -pixel_format uyvy422 -video_size 720x576 -framerate 25 -i udp://@225.0.4.106:4378 payload_size 96
+  382  ffplay -f rawvideo -pixel_format uyvy422 -video_size 720x576 -framerate 25 -i udp://@225.0.4.106:4378 -payload_size 96
+  383  ffplay -f rawvideo -pixel_format uyvy422 -video_size 720x576 -framerate 25 -i udp://@225.0.4.106:4378 -payload_size=96
+  384  ffplay -f rawvideo -pixel_format uyvy422 -video_size 720x576 -framerate 25 -i udp://@225.0.4.106:4378
+  385  ffplay -f rawvideo -pixel_format uyvy422 -video_size 720x576 -framerate 25 -i udp://@225.0.4.106:4378 -pkt_size=96
+  386  ffplay -f rawvideo -pixel_format uyvy422 -video_size 720x576 -framerate 25 -i udp://@225.0.4.106:4378 pkt_size=96
+  387  ffplay -f rawvideo -pixel_format uyvy422 -video_size 720x576 -framerate 25 -i udp://@225.0.4.106:4378 -pkt_size=96
+  388  ffplay -f rawvideo -pixel_format uyvy422 -video_size 720x576 -framerate 25 -i udp://@225.0.4.106:4378?pkt_size=96
+  389  ffplay -f rawvideo -pixel_format uyvy422 -video_size 720x576 -framerate 25 -i udp://@225.0.4.106:4378?pkt_size=96&bitrate=90000
+  390  ffplay -f rawvideo -pixel_format uyvy422 -video_size 720x576 -framerate 25 -i udp://@225.0.4.106:4378?pkt_size=96&bitrate=8
+  391  ffplay -f rawvideo -pixel_format uyvy422 -video_size 720x576 -framerate 25 -i udp://@225.0.4.106:4378
+  392  ffplay -f rawvideo -pixel_format uyvy422 -video_size 720x576 -framerate 30 -i udp://@225.0.4.106:4378
+  393  ffplay -f rawvideo -pixel_format uyvy422 -video_size 720x576 -framerate 1 -i udp://@225.0.4.106:4378
+  394  ffplay -f rawvideo -pixel_format uyvy422 -video_size 720x576 -framerate 60 -i udp://@225.0.4.106:4378
+  395  ffplay -f rawvideo -pixel_format uyvy422 -video_size 720x576 -framerate 60 -i rtp://@225.0.4.106:4378
+  396  ffplay -f rawvideo -pixel_format uyvy422 -video_size 720x576 -framerate 60 -i udp://@225.0.4.106:4378
+  397  ffplay -f rawvideo -pixel_format uyvy422 -video_size 720x576 -framerate 60 -i udp://:4951
+  398  ffplay -f rawvideo -pixel_format uyvy422 -video_size 720x576 -framerate 60 -i udp://127.0.0.1:4951
+  399  ffplay -f rawvideo -pixel_format uyvy422 -video_size 720x576 -framerate 25 -i udp://127.0.0.1:4951
+  400  ffplay -f rawvideo -pixel_format uyvy422 -video_size 720x576 -framerate 25 -i udp://127.0.0.1:1234
+  401  ffplay -f rawvideo -pixel_format uyvy422 -video_size 720x576 -framerate 60 -i udp://@225.0.4.106:4378
+  402  ffplay -f rawvideo -pixel_format uyvy422 -video_size 720x576 -framerate 60 -i rtp://@225.0.4.106:4378
+  403  ffplay -f rawfc4175 pixel_format uyvy422 -video_size 720x576 -framerate 60 -i rtp://@225.0.4.106:4378
+  404  ffplay -f rfc4175 pixel_format uyvy422 -video_size 720x576 -framerate 60 -i rtp://@225.0.4.106:4378
+  405  ffplay -f ff_rfc4175 pixel_format uyvy422 -video_size 720x576 -framerate 60 -i rtp://@225.0.4.106:4378
+  406  ffplay -f raw pixel_format uyvy422 -video_size 720x576 -framerate 60 -i rtp://@225.0.4.106:4378
+  407  ffplay -f rawvideo pixel_format uyvy422 -video_size 720x576 -framerate 60 -i rtp://@225.0.4.106:4378
+  408  ffplay -f rawvideo -pixel_format uyvy422 -video_size 720x576 -framerate 60 -i rtp://@225.0.4.106:4378
+  409  ffmpeg -pix_fmts
+  410  ffmpeg -devices
+  411  ffmpeg -bsfs
+  412  ffmpeg -protocols
+  413  ffmpeg -layouts
+  414  ffmpeg -colors
+  415  ffmpeg -source device
+  416  ffmpeg -sources device
+  417  route
+  418  route add -net 225.0.4.0/8 eth0
+  419  route add -net 225.0.4.0/8 dev eth0
+  420  ip route add 225.0.4.0/8 dev eth0
+  421  su *
+  422  su -
+  423  gst-inspect | grep sink
+  424  gst-inspect appsink
+  425  gst-inspect udpsink
+  426  gst-inspect tcpsink
+  427  gst-inspect tcpserversink
+  428  gst-inspect tcpclientsink
+  429  gst-launch udpsrc uri=udp://225.0.4.106:4378 ! "application/x-rtp, media=(string)video, clock-rate=(int)90000, encoding-name=(string)RAW, payload=(int)96" ! rtprawvdepay ! xvimagesink
+  430  gst-launch udpsrc uri=udp://225.0.4.106:4378 ! "application/x-rtp, media=(string)video, clock-rate=(int)90000, encoding-name=(string)RAW, payload=(int)96" ! rtpvrawdepay ! xvimagesink
+  431  gst-launch udpsrc uri=udp://225.0.4.106:4378 multicast-iface=eth0 ! "application/x-rtp, media=(string)video, clock-rate=(int)90000, encoding-name=(string)RAW, payload=(int)96" ! rtpvrawdepay ! xvimagesink
+  432  gst-launch udpsrc uri=udp://225.0.4.106:4378 multicast-iface=eth0 ! "application/x-rtp, media=(string)video, clock-rate=(int)90000,width=(int)720, height=(int)576, payload=(int)96" ! rtpvrawdepay ! xvimagesink
+  433  gst-launch udpsrc uri=udp://225.0.4.106:4378 multicast-iface=eth0 "application/x-rtp, media=(string)video, clock-rate=(int)90000,width=(int)720, height=(int)576, payload=(int)96" ! rtpvrawdepay ! xvimagesink
+  434  gst-launch udpsrc uri=udp://225.0.4.106:4378 multicast-iface=eth0 ! caps="application/x-rtp, media=(string)video, clock-rate=(int)90000,width=(int)720, height=(int)576, payload=(int)96" ! rtpvrawdepay ! xvimagesink
+  435  gst-launch -v udpsrc uri=udp://225.0.4.106:4378 multicast-iface=eth0 ! caps="application/x-rtp, media=(string)video, clock-rate=(int)90000,width=(int)720, height=(int)576, payload=(int)96" ! rtpvrawdepay ! xvimagesink
+  436  gst-launch -v udpsrc uri=udp://225.0.4.106:4378 multicast-iface=eth0 caps="application/x-rtp, media=(string)video, clock-rate=(int)90000,width=(int)720, height=(int)576, payload=(int)96" ! rtpvrawdepay ! xvimagesink
+  437  gst-launch -v udpsrc uri=udp://225.0.4.106:4378 multicast-iface=eth0 caps="application/x-rtp, media=(string)video, clock-rate=(int)90000, width=(int)720, height=(int)576, payload=(int)96" ! rtpvrawdepay ! xvimagesink
+  438  gst-launch -v udpsrc uri=udp://225.0.4.106:4378 multicast-iface=eth0 caps="application/x-rtp, media=(string)video, clock-rate=(int)90000, width=(int)720, height=(int)576, payload=(int)96" ! rtpvrawdepay ! ffmpegcolorspace !  xvimagesink
+  439  gst-launch -v udpsrc uri=udp://225.0.4.106:4378 multicast-iface=eth0 caps="application/x-rtp, media=(string)video, encoding-name=(string)RAW, sampling=(string)YCbCr-4:2:2, depth=(string)8, clock-rate=(int)90000, width=(string)720, height=(string)576, payload=(int)96" ! rtpvrawdepay ! ffmpegcolorspace !  xvimagesink
+  440  gst-launch -v udpsrc uri=udp://225.0.4.106:4378 multicast-iface=eth0 caps="application/x-rtp, media=(string)video, encoding-name=(string)RAW, sampling=(string)YCbCr-4:2:2, depth=(string)8, clock-rate=(int)90000, width=(string)720, height=(string)576, payload=(int)96" ! rtpvrawdepay !  xvimagesink
+  441  gst-launch -v udpsrc uri=udp://225.0.4.106:4378 multicast-iface=eth0 caps="application/x-rtp, media=(string)video, encoding-name=(string)RAW, sampling=(string)YCbCr-4:2:2, depth=(string)8, clock-rate=(int)90000, width=(string)720, height=(string)576, payload=(int)96" ! rtpvrawdepay ! ffmpegcolorspace !  xvimagesink
+  442  gst-launch -v udpsrc uri=udp://225.0.4.106:4378 multicast-iface=eth0 caps="application/x-rtp, media=(string)video, encoding-name=(string)RAW, sampling=(string)YCbCr-4:2:2, depth=(string)8, clock-rate=(int)90000, width=(string)720, height=(string)576, payload=(int)96" ! rtpvrawdepay ! ffmpegcolorspace ! v4l2sink device=/dev/video1
+  443  gst-launch -v udpsrc uri=udp://225.0.4.106:4378 multicast-iface=eth0 caps="application/x-rtp, media=(string)video, encoding-name=(string)RAW, sampling=(string)YCbCr-4:2:2, depth=(string)8, clock-rate=(int)90000, width=(string)720, height=(string)576, payload=(int)96" ! rtpvrawdepay ! udpsink 
+  444  gst-launch -vvv udpsrc uri=udp://225.0.4.106:4378 multicast-iface=eth0 caps="application/x-rtp, media=(string)video, encoding-name=(string)RAW, sampling=(string)YCbCr-4:2:2, depth=(string)8, clock-rate=(int)90000, width=(string)720, height=(string)576, payload=(int)96" ! rtpvrawdepay ! udpsink 
+  445  gst-launch -vvv udpsrc uri=udp://225.0.4.106:4378 multicast-iface=eth0 caps="application/x-rtp, media=(string)video, encoding-name=(string)RAW, sampling=(string)YCbCr-4:2:2, depth=(string)8, clock-rate=(int)90000, width=(string)720, height=(string)576, payload=(int)96" ! rtpvrawdepay ! udpsink host=127.0.0.1 port=1234
+  446  gst-launch -v udpsrc uri=udp://225.0.4.106:4378 multicast-iface=eth0 caps="application/x-rtp, media=(string)video, encoding-name=(string)RAW, sampling=(string)YCbCr-4:2:2, depth=(string)8, clock-rate=(int)90000, width=(string)720, height=(string)576, payload=(int)96" ! rtpvrawdepay ! ffmpegcolorspace !  xvimagesink
+  447  top
+  448  gst-launch -v udpsrc uri=udp://225.0.4.106:4378 multicast-iface=eth0 caps="application/x-rtp, media=(string)video, encoding-name=(string)RAW, sampling=(string)YCbCr-4:2:2, depth=(string)8, clock-rate=(int)90000, width=(string)720, height=(string)576, payload=(int)96" ! rtpvrawdepay ! ffmpegcolorspace !  xvimagesink
+  449  gst-launch -v udpsrc uri=udp://225.0.4.107:4378 multicast-iface=eth0 caps="application/x-rtp, media=(string)video, encoding-name=(string)RAW, sampling=(string)YCbCr-4:2:2, depth=(string)8, clock-rate=(int)90000, width=(string)720, height=(string)576, payload=(int)96" ! rtpvrawdepay ! ffmpegcolorspace !  xvimagesink
+  450  su -
+  451  cd /dev/
+  452  ifconfig -a
+  453  poweroff
+  454  ifconfig 
+  455  ssh 10.1.10.31 -l root
+  456  poweroff
+  457  cd
+  458  history 
+  459  clear
+  460  history 
+  461  su -
+  462  clear
+  463  history 
+  464  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 3M -an -f rtp_mpegts udp://225.1.10.100:6000
+  465  vi /etc/sysctl.conf 
+  466  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 3M -an -f rtp_mpegts udp://225.1.10.100:6000
+  467  cd Downloads/
+  468  more online-stopwatch.swf 
+  469  ll
+  470  rpm -qpl flash-player-npapi-32.0.0.114-release.x86_64.rpm 
+  471  su -
+  472  clear
+  473  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 3M -an -f rtp_mpegts udp://225.1.10.100:6000
+  474  su -
+  475  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 3M -an -f rtp_mpegts udp://225.1.10.100:6000
+  476  su -
+  477  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 3M -an -f rtp_mpegts udp://225.1.10.100:6000
+  478  ifconfig 
+  479  netstat *nr
+  480  netstat -nr
+  481  su -
+  482  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 3M -an -f rtp_mpegts udp://225.1.10.100:6000
+  483  poweroff
+  484  firefox ../Downloads/online-stopwatch.swf 
+  485  top
+  486  ping 10.1.10.1
+  487  ssh 10.1.10.1
+  488  ssh admin@10.1.10.1
+  489  exit
+  490  su *
+  491  su -
+  492  exit
+  493  ping 10.1.10.14
+  494  ifconfig 
+  495  ping 10.1.10.15
+  496  ping 10.1.10.16
+  497  ping 10.1.10.10
+  498  ping 10.1.10.11
+  499  ping 10.1.10.12
+  500  ping 10.1.10.13
+  501  ping 10.1.10.14
+  502  pıng 10.1.10.181
+  503  ping 10.1.10.181
+  504  exit
+  505  ifconfig 
+  506  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 3M -an -f rtp_mpegts udp://225.1.10.100:6000
+  507  exıt
+  508  exit
+  509  ifconfig 
+  510  tcpdump -i eth0
+  511  su -
+  512  history 
+  513  cd
+  514  history 
+  515  ffplay -vcodec hevc_cuvid Video/The.Grand.Tour.S01E01.The.Holy.Trinity.1080p.WEBRip.6CH.x265.HEVC-PSA.mkv
+  516  ffplay -vcodec hevc_cuvid Videos/The.Grand.Tour.S01E01.The.Holy.Trinity.1080p.WEBRip.6CH.x265.HEVC-PSA.mkv
+  517  ffplay Videos/house.of.cards.2013.s04e01.1080p.webrip.hevc.x265.rmteam.mkv 
+  518  netstat-nr
+  519  netstat -nr
+  520  cd
+  521  history 
+  522  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 3M -an -f rtp_mpegts udp://225.1.10.100:6000
+  523  poweroff
+  524  history 
+  525  ffplay Videos/halt.and.catch.fire.s03e10.next.1080p.web.dl.6ch.hevc.x265.rmteam.mkv 
+  526  cd
+  527  history t
+  528  history 
+  529  ifconfig 
+  530  netstat -nr
+  531  ifconfig eth:5 10.0.5.24 netmask 255.255.255.0
+  532  su *
+  533  su -
+  534  ffmpeg -f x11grab -framerate 30 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 3M -an -f rtp_mpegts udp://225.0.5.100:6000
+  535  ifconfig 
+  536  su *
+  537  su -
+  538  cd
+  539  ll
+  540  cd Videos/
+  541  ll
+  542  cd 
+  543  ll
+  544  history > el6.opcon.ffmpeg.stream.txt

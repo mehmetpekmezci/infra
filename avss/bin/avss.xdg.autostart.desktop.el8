@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=AVSS Stage-3 Start
+Comment=AVSS Stage1-3 Start Script
+Exec=bash -c "export AVSS_ROOT=/opt/avss;$AVSS_ROOT/bin/avss.source.start.command.sh :1.0 1>> /tmp/avss.source.start.$USER.out 2>> /tmp/avss.source.start.$USER.err &"
+Terminal=false
+Type=Application
+Categories=
+X-GNOME-Autostart-Phase=WindowManager
+NoDisplay=true

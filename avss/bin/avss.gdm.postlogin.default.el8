@@ -1,0 +1,6 @@
+#!/bin/bash
+
+export AVSS_ROOT=/opt/avss
+
+$AVSS_ROOT/bin/avss.source.stop.command.sh
+

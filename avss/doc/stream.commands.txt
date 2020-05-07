@@ -1,0 +1,35 @@
+[UHD] - Screen Stream
+ffmpeg -f x11grab -framerate 25 -video_size uhd2160 -i :0.0 -c:video hevc_nvenc -preset fast -pix_fmt bgr0 -b:v 3M -g 25 -an -f rtp_mpegts rtp://225.0.5.20:6000
+
+[Audio] - Line-In Stream
+ffmpeg -f alsa -i hw:0,0 -c:audio aac -b:a 48K -f rtp_mpegts rtp://225.0.5.20:6002
+
+[IP Camera] - 1080p Camera
+ffmpeg -v debug -buffer_size 500000 -c:v h264_cuvid -i rtsp://10.0.5.249/video -pix_fmt yuv420p -f sdl "249"
+ffmpeg -v debug -buffer_size 500000 -c:v h264_cuvid -i rtsp://10.0.5.250/video -pix_fmt yuv420p -f sdl "250"
+
+[MKV Replay] - 720p recorded video
+ffplay -v debug -vcodec hevc_cuvid  Videos/the.expanse.s02e11.720p.hdtv.hevc.x265.rmteam.mkv
+
+[RAW Live Play] - 720p RAW Video
+ffmpeg -v debug -re -probesize 32 -buffer_size 500000 -protocol_whitelist file,rtp,udp -strict -2 -i test.106.sdp -pix_fmt yuv420p -f sdl "106"
+ffmpeg -v debug -re -probesize 32 -buffer_size 500000 -protocol_whitelist file,rtp,udp -strict -2 -i test.107.sdp -pix_fmt yuv420p -f sdl "107"
+
+[OPCON Live Stream Remote Play] - OPCON-OPCON
+ffmpeg -probesize 100 -buffer_size 500000 -c:v hevc_cuvid -i rtp://225.0.5.20:6000 -pix_fmt yuv420p -window_fullscreen 1 -f sdl "opcon-10"
+
+[OPCON Live Stream Remote Record] - 20 minute - Owerwrite file - Copy Video Stream - No Audio Stream
+ffmpeg -y -t 1200 -buffer_size 500000 -i rtp://225.0.5.20:6000 -vcodec copy -an opcon-10.mkv
+
+[OPCON Live Sound Stream Remote Play] - OPCON-OPCON
+ffmpeg -probesize 100 -buffer_size 5000 -i rtp://225.0.5.20:6002 -buffer_size 5000 -f pulse default
+
+[OPCON Live Video & Sound Stream Record to File]
+ffmpeg -y -buffer_size 500000 -thread_queue_size 256 -i rtp://225.0.5.20:6000 -buffer_size 5000 -thread_queue_size 256 -i rtp://225.0.5.20:6002 -map 0:0 -map 1:0 -c:v copy -c:a copy  opcon-10.mkv
+
+[OPCON Live Sound Stream Remote Play] - OPCON-Advantech
+ffmpeg -probesize 100 -buffer_size 5000 -i rtp://225.0.5.20:6002 -buffer_size 5000 -f pulse default
+
+[OPCON Live Video Stream Remote Play] - OPCON-Advantech
+ffmpeg -probesize 100 -buffer_size 400000 -hwaccel vaapi -hwaccel_output_format vaapi -i rtp://225.0.5.20:6000 -vf 'hwdownload,format=yuv420p' -window_fullscreen 1 -f sdl2 "opcon-10"
+

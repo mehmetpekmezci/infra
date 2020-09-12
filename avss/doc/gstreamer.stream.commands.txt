@@ -1,0 +1,12 @@
+gstreamer-0.1 tx :
+gst-launch-0.10 videotestsrc ! "video/x-raw-yuv,format=(fourcc)UYVY,width=1280,height=720,framerate=25/1" ! rtpvrawpay pt=96 mtu=9000 ! udpsink host=225.0.4.113 port=6001 sync=false async=false -v
+gst-launch-0.10 videotestsrc ! "video/x-raw-yuv,format=(fourcc)UYVY,width=1280,height=720,framerate=25/1" ! rtpvrawpay pt=96 mtu=9000 ! udpsink host=225.0.4.113 port=6001 sync=true -v
+gst-launch-0.10 videotestsrc ! "video/x-raw-yuv,format=(fourcc)UYVY,width=1280,height=720,framerate=25/1" ! timeoverlay halign=left valign=bottom text="Stream time" shaded-background=true ! rtpvrawpay pt=96 mtu=9000 ! udpsink host=225.0.4.113 port=6001 sync=true -v
+
+gstreamer-1.0 tx :
+gst-launch-1.0 videotestsrc ! "video/x-raw,format=UYVY,width=1280,height=720,framerate=25/1" ! rtpvrawpay pt=96 mtu=9000 ! udpsink host=225.0.4.113 port=6001 sync=false async=false -v
+
+ffmpeg 3.4.1 rx :
+ffmpeg -v debug -re -probesize 32 -buffer_size 500000 -protocol_whitelist file,rtp,udp -strict -2 -i test.soft.sdp -pix_fmt yuv420p -f sdl "soft"
+
+
